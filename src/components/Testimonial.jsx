@@ -21,8 +21,8 @@ const Testimonial = () => {
         />
 
         <TestimonialCard
-          name={"Mansi"}
-          desination={"SDE at Amazon"}
+          name={"Purnedu"}
+          desination={"SDE at V2Solutions"}
           feedback={
             "Amazing seems like you should have a great Entrepreneurship skill."
           }

@@ -9,7 +9,7 @@ const Home = ({ ratio }) => {
   const projectCount = useRef(null);
 
   const animationClientsCount = () => {
-    animate(1, 2, {
+    animate(1, 1, {
       duration: 1,
       onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
     });

@@ -11,21 +11,21 @@
       "date": "01/03/2023",
       "title": "XCrypto",
       "description": "Cryptocurrency showcase with live API calls for coin details; may be slow due to use of free API.",
-      "url": "https://react-crypto-app-pi.vercel.app",
+      "url": "https://xcrypto-puce.vercel.app/",
       "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
     },
     {
       "date": "01/03/2023",
       "title": "REACT CART",
       "description": "This is a add to cart application using reactjs, Besically here showcase the react-redux skill",
-      "url": "https://react-cart-eosin.vercel.app",
+      "url": "https://addtocart-redux.vercel.app/",
       "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
     },
     {
       "date": "01/02/2022",
       "title": "VIDEO HUB",
       "description": "Sample ReactJS-based web app for video-based learning. Backend not yet implemented. Focus on UI/UX for seamless video playback.",
-      "url": "https://react-video-app-eight.vercel.app",
+      "url": "https://video-hub-two.vercel.app/",
       "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
     },
     {
@@ -47,7 +47,7 @@
       "title": "PORTFOLIO",
       "description": "This is my portfolio website here you can know more about me and my skill set using Reactjs and Firebase",
       "url": "/",
-      "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+      "imgSrc": "https://user-images.githubusercontent.com/69732296/230644479-0d85cf69-545d-4596-9548-961925526ed7.png"
     }
   ],
 
