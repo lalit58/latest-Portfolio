@@ -12,6 +12,7 @@ const Timeline = () => {
             index={index}
             key={item.title}
             type={item.type}
+            skill={item.skill}
           />
         ))}
       </div>
@@ -19,7 +20,7 @@ const Timeline = () => {
   );
 };
 
-const TimelineItem = ({ heading, text, type, index }) => (
+const TimelineItem = ({ heading, text, type, index, skill }) => (
   <div
     className={`timelineItem ${
       index % 2 === 0 ? "leftTimeline" : "rightTimeline"
@@ -29,6 +30,11 @@ const TimelineItem = ({ heading, text, type, index }) => (
     <div>
       <h2>{heading}</h2>
       <h4>({type})</h4>
+      {/* <div className="skills">
+        {skill.map((e, i) => (
+          <h5 key={i}>{e}</h5>
+        ))}
+      </div> */}
     </div>
   </div>
 );

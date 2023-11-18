@@ -5,6 +5,13 @@
   background-color: $color5;
   color: $color4;
   overflow: hidden;
+  background: rgb(8, 36, 51);
+  background: linear-gradient(
+    94deg,
+    rgba(8, 36, 51, 1) 43%,
+    rgba(42, 49, 156, 1) 100%
+  );
+
   > h2 {
     font: 700 2.5rem $text2;
     width: fit-content;
@@ -31,6 +38,7 @@
       &:hover {
         box-shadow: 0 0 5px 15px $color1;
       }
+      border-radius: 1rem;
 
       > svg {
         color: $color5;

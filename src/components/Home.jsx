@@ -9,13 +9,13 @@ const Home = ({ ratio }) => {
   const projectCount = useRef(null);
 
   const animationClientsCount = () => {
-    animate(1, 1, {
+    animate(1, 3, {
       duration: 1,
       onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
     });
   };
   const animationProjectsCount = () => {
-    animate(1, 10, {
+    animate(1, 15, {
       duration: 1,
       onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
     });
@@ -42,6 +42,29 @@ const Home = ({ ratio }) => {
       },
     },
   };
+
+  // const handleDownload = () => {
+  //   // Assuming your resume file is in the public folder
+  //   const resumePath = "../assets/Lalit_Resume.pdf"; // Replace this with your actual resume path
+
+  //   // Create an anchor element
+  //   const link = document.createElement("a");
+  //   link.href = resumePath;
+
+  //   // Set the download attribute and file name
+  //   link.download = "Lalit_Resume.pdf"; // Replace with your desired file name
+
+  //   // Programmatically trigger a click event to download the file
+  //   document.body.appendChild(link);
+  //   link.click();
+
+  //   // Clean up
+  //   document.body.removeChild(link);
+  // };
+
+  const resumePath =
+    "https://drive.google.com/file/d/1EcRagyRJ3KUXCXcCCf5WSGjVi82fCQfP/view?usp=sharing"; // Replace this with your actual resume path
+
   return (
     <div id="home">
       <section>
@@ -65,7 +88,14 @@ const Home = ({ ratio }) => {
           />
 
           <div>
-            <a href="mailto:lalitsoren58@gmail.com">Hire Me</a>
+            <a
+              href={resumePath}
+              target="_blank"
+              rel="noreferrer"
+              download="lalit_resume.pdf"
+            >
+              Hire Me
+            </a>
             <a href="#work">
               Projects <BsArrowUpRight />
             </a>

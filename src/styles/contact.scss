@@ -25,10 +25,11 @@
       > button {
         padding: 0.8rem;
         width: 40%;
-        outline: none;
+        // outline: none;
         font: 400 0.9rem $text1;
         margin: 1rem;
-        border: none;
+        border: blue;
+        border-radius: 0.5rem;
       }
 
       > button {
@@ -38,6 +39,7 @@
         font: 600 1rem $text1;
         text-transform: uppercase;
         margin: 3rem;
+        border-radius: 1.5rem;
         &:hover {
           background-color: $color3_1;
         }

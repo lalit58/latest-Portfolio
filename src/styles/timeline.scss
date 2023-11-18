@@ -1,7 +1,14 @@
 #timeline {
   width: 100%;
   height: 100vh;
-  background-color: $color1;
+  // background-color: $color1;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 28%,
+    rgba(0, 212, 255, 1) 100%
+  );
 
   .timelineBox {
     width: 100%;
@@ -27,7 +34,7 @@
   .timelineItem {
     padding: 1rem 3rem;
     position: relative;
-    background-color: inherit;
+    background-color: "inherit";
     width: 50%;
 
     &:nth-child(odd) {
@@ -62,8 +69,27 @@
       padding: 20px 30px;
       background-color: $color5;
       color: $color1;
-      border-radius: 6px;
+      border-radius: 1rem;
     }
+    // > div > div {
+    //   flex-direction: row;
+    //   display: flex;
+    // }
+    // .skills {
+    //   display: flex;
+    //   flex-wrap: wrap;
+    //   gap: 5px;
+    //   margin-top: 10px;
+    //   align-items: flex-end;
+
+    //   h5 {
+    //     background-color: $color3; /* Add your desired background color */
+    //     padding: 5px 10px;
+    //     border-radius: 8px;
+    //     color: $color6;
+    //     font-size: 0.8em;
+    //   }
+    // }
   }
   .leftTimeline {
     left: 0%;

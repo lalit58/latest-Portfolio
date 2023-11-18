@@ -2,6 +2,13 @@
   width: 100%;
   height: 90vh;
   display: flex;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 28%,
+    rgba(0, 212, 255, 1) 100%
+  );
 
   > section {
     width: 100%;
@@ -20,6 +27,7 @@
           margin: 20px 0;
           height: 20px;
           letter-spacing: 5px;
+          color: $color1;
         }
 
         > div {
@@ -31,16 +39,18 @@
           > a {
             &:first-of-type {
               background-color: $color3;
+              border-radius: 2rem;
               color: $color1;
               padding: 1rem 2.5rem;
               transition: all 0.3s;
+              font-weight: 700;
               &:hover {
                 background-color: $color3_1;
               }
             }
             &:last-of-type {
               font: 600 1.2rem $text2;
-              color: $color5;
+              color: $color1;
             }
           }
         }
@@ -67,9 +77,11 @@
           }
           > p {
             font: 900 2rem $text1;
+            color: $color1;
           }
           > span {
             font: 500 1rem $text2;
+            color: $color1;
           }
         }
         article[data-special] {
@@ -107,7 +119,7 @@
   > svg {
     position: absolute;
     font-size: 4rem;
-    color: $color5;
+    color: $color3_1;
     left: 50%;
     bottom: 5%;
     transform: translateX(-50%);

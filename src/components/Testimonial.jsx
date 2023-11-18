@@ -38,7 +38,7 @@ const TestimonialCard = ({ name, feedback, desination }) => (
       src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
       alt="User"
     />
-    <h4>{name}</h4>
+    <h4 className="name">{name}</h4>
     <p className="para">({desination})</p>
     <p>{feedback}</p>
   </article>

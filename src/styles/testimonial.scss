@@ -3,6 +3,12 @@
   padding: $p;
   background-color: $color4;
   color: $color5;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    94deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(29, 57, 167, 1) 100%
+  );
 
   > h2 {
     font: 700 2.5rem $text2;
@@ -19,17 +25,19 @@
     padding: 8rem;
     background-color: $color1;
     gap: 20px;
+    border-radius: 2rem;
 
     > article {
       height: 100%;
       width: 30%;
-      background-color: $color4;
+      background-color: rgba(29, 57, 167, 1);
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       padding: 2rem;
       position: relative;
+      border-radius: 2rem;
       img {
         top: 0%;
         position: absolute;
@@ -39,8 +47,12 @@
         border-radius: 50%;
         transform: translateY(-32%);
       }
+      .name {
+        color: $color1;
+      }
       > .para {
         font: 900 14px solid;
+        color: $color1;
       }
       p {
         letter-spacing: 2px;
@@ -49,6 +61,7 @@
         line-height: 160%;
         text-align: center;
         overflow: hidden;
+        color: $color1;
       }
     }
   }
