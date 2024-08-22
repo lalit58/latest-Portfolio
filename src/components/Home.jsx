@@ -63,7 +63,7 @@ const Home = ({ ratio }) => {
   // };
 
   const resumePath =
-    "https://drive.google.com/file/d/1EcRagyRJ3KUXCXcCCf5WSGjVi82fCQfP/view?usp=sharing"; // Replace this with your actual resume path
+    "https://drive.google.com/file/d/151EZ0QpSm3WLBFLCX3GtHWYBnSjGmGUv/view?usp=sharing"; // Replace this with your actual resume path
 
   return (
     <div id="home">
@@ -104,7 +104,7 @@ const Home = ({ ratio }) => {
           <article>
             <p>
               +
-              {ratio < 2 && (
+              {ratio < 5 && (
                 <motion.span
                   whileInView={animationClientsCount}
                   ref={clientCount}
@@ -117,7 +117,7 @@ const Home = ({ ratio }) => {
             <article>
               <p>
                 +
-                {ratio < 2 && (
+                {ratio < 5 && (
                   <motion.span
                     whileInView={animationProjectsCount}
                     ref={projectCount}
